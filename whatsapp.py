@@ -42,7 +42,7 @@ class LoginConfirmation:
         self.root.resizable(False, False)
         self.root.configure(bg="#121212")  # Dark theme background
 
-        logo = Image.open("apelisolutions.png")
+        logo = Image.open("apelinifa.png")
         logo = logo.resize((90, 90), Image.LANCZOS)
         self.logo_img = ImageTk.PhotoImage(logo)
 
@@ -302,7 +302,7 @@ class WhatsAppAutomation:
             logging.info("Browser closed successfully")
 
 def main():
-    CHROMEDRIVER_PATH = r"C:\apeli\chromedriver-win64\chromedriver.exe"
+    CHROMEDRIVER_PATH = r"C:\Tools\chromedriver-win64\chromedriver.exe"
     
     try:
         bot = WhatsAppAutomation(CHROMEDRIVER_PATH)
@@ -314,25 +314,15 @@ def main():
             return
         
         groups = [
-            "KCAU BIT FT SEP-DEC 2022",
-            "KISII UNIVERSITY 2023 COMRADES.",
-            "URBAN COLLECTION 😊",
-            "Market Place✅",
-            "🇰🇪 Sharing Opportunities",
-            "P3rf3ctr00t community",
-            "KU SCHOOL OF EDUCATION FRESHERS 2025💥",
-            "*G👻O✨O🐼D V❤️I🌹B🐻E🐾S",
-            "YouTube subscriptions on channels",
-            "SUPER OCTOBER CLASS",
-            "MAKE MONEY ONLINE WITHOUT INVESTMENT",
-            "🇲 🇹  🇰 🇪 🇳 🇾 🇦 ⛰️🇭 🇮 🇰 🇮 🇳 🇬    🇨 🇱 🇺 🇧 🇰🇪",
-            "Keep the grind🤑",
+            "The Fineapples",
+            "April birthday",
             "MMARAU comrades",
             "ZETECH TOWN CAMPUS",
         ]
         
-        message_content = """👟 Stay ahead of the game with the latest sneaker: 
-        https://chat.whatsapp.com/EILZuQYgby1BAn3IKPFsky"""
+        message_content = """This is a test message sent using the WhatsApp Automation script.
+        This message is sent to multiple groups for demonstration purposes.: 
+        Thank you for your attention!"""
         
         failed = bot.process_groups(groups, message_content)
         
