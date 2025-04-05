@@ -81,8 +81,8 @@ Here are some screenshots of the project in action:
 ## 📞 Contact Information  
 Need help? Reach out to us!  
 
-📧 **Email:** [livingstoneapeli@gmail.com](mailto:apelinifagmail.com)  
-📱 **Phone:** [+254 754 497 441](tel:+254743161167)  
+📧 **Email:** [apelinifa@gmail.com](mailto:apelinifagmail.com)  
+📱 **Phone:** [+254 743161167](tel:+254743161167)  
 
 
 ## 👨‍💻 Author
