@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
